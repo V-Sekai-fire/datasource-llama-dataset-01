@@ -10,10 +10,11 @@ A grammar narrows the sampler to output that parses, so a generated scene is val
 
 ```sh
 pip install -r requirements.txt
-python TEST_01_tscn/llama-cpp-grammar.py
+cd TEST_01_tscn
+python llama-cpp-grammar.py
 ```
 
-The scripts download their model on first run.
+The scripts open their grammar from the current directory, and download their model on first run.
 
 ## Licence
 
