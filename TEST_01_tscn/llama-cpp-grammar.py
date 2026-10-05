@@ -22,7 +22,6 @@ def get_model_file(model_url):
         filename = hashlib.md5(model_url.encode('utf-8')).hexdigest() + '.gguf'
         model_path = os.path.join(tempfile.gettempdir(), filename)
 
-        if not os.path.exists(model_path):
         if os.path.exists(model_path):
             actual_size = os.path.getsize(model_path)
             if actual_size == total_length:
