@@ -18,4 +18,4 @@ The scripts open their grammar from the current directory, and download their mo
 
 ## Licence
 
-The scripts carry MIT SPDX headers; the repository has no licence file.
+MIT. See [LICENSE](LICENSE).
